@@ -1,0 +1,40 @@
+body{
+    background: gray;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+label{
+    float: left;
+    margin: 10px;
+}
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 23px;
+}
